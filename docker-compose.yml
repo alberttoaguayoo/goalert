@@ -4,7 +4,7 @@ services:
     container_name: goalert-docker
     image: goalert/goalert:latest
     ports:
-      - 8082:8081
+      - 8084:8081
     environment:
       - GOALERT_DB_URL=postgres://goalert:123@172.17.0.1:5437/goalert
       - GOALERT_DATA_ENCRYPTION_KEY=123
